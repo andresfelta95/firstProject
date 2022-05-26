@@ -1,0 +1,8 @@
+#ignore images folder
+/images
+
+#ignore all images
+*.jpg
+*.pgn
+*.gif
+*.jpeg

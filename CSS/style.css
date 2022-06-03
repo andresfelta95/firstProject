@@ -4,23 +4,52 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-.main-nav{
-    margin-top: 10px;
-    list-style: none;
-    padding-left: 0px;
-    
+html{
+    font-size: 62.5%;
 }
-.main-nav__item{
+body{
+    background-image: url("../images/technology.jpg");        
+}
+.header_Title {
+    font-size: 5rem;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+    color: #fff;
+    margin: auto auto;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    min-height: 90px;
+    background-color: rgba(0, 255, 255, 0.423);
+    border-radius: 1.6rem;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+#logo{
+    border-radius: 100%;
+    width: 6rem;
+    height: 6rem;
+    position: relative;
+    margin-right: auto;
+    align-self: center;   
+}
+.main-nav{
+    list-style: none;
+    text-align: right;
+    align-self: center;
+    font-size: 1.8rem;    
+}
+.main-nav__item{    
     display: inline-block;
 }
 .main-nav__item a {
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
-    background-color: #13a4a4;
+    background-color: #13a4a430;
 }
 
 .main-nav__item a:hover {
@@ -36,8 +65,3 @@
     content: " | ";
 }
 
-p{
-    text-align: center;
-    background-color: skyblue;
-    color: brown;
-}

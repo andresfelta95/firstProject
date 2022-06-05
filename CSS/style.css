@@ -65,3 +65,8 @@ nav{
     content: " | ";
 }
 
+footer {    
+    background-color: #fff;
+    color: black;
+    text-align: center;     
+}
